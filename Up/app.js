@@ -13,7 +13,7 @@ input.onkeydown = (e)=>{
         //letter check 
         setInterval(() => {
             check_letter(input.value);            
-        }, 10);
+        }, 100);
     
 }
 // input.onkeyup = ()=>{ input.value = ''}
