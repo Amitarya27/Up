@@ -7,7 +7,7 @@ let current_letter, para, r_para;
 let letter_no = 0;
 
 setLetter();
-
+alert('kuch bhi');
 input.onkeydown = (e)=>{
 
         //letter check 
