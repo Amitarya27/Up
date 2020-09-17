@@ -11,8 +11,8 @@ setLetter();
 input.onkeydown = (e)=>{
 
         //letter check 
-        setInterval(() => {
-            check_letter(input.value.toLowerCase());            
+        setTimeout(() => {
+            check_letter( input.value.toLowerCase());            
         }, 10);
     
 }
